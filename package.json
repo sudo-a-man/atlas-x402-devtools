@@ -1,0 +1,32 @@
+{
+  "name": "qr-api",
+  "version": "1.2.0",
+  "description": "Atlas x402 API — pay-per-call QR/barcode generation and developer utilities over x402 (USDC on Base).",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "x402",
+    "qr",
+    "barcode",
+    "usdc",
+    "base",
+    "agent",
+    "micropayments"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bwip-js": "^4.5.1",
+    "js-yaml": "^4.3.2",
+    "pdf-lib": "^1.17.1",
+    "qrcode": "^1.5.4",
+    "x402": "^1.2.0"
+  }
+}

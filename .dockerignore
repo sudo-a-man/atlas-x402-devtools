@@ -1,0 +1,12 @@
+node_modules/
+*.log
+public_url.txt
+.git/
+.gitignore
+cloudflared.log
+keepalive.log
+keepalive.sh
+revenue.log
+server.log
+WORKLOG.md
+DEPLOY.md
