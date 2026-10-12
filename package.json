@@ -1,10 +1,10 @@
 {
   "name": "qr-api",
   "version": "1.2.0",
-  "description": "Atlas x402 API — pay-per-call QR/barcode generation and developer utilities over x402 (USDC on Base).",
+  "description": "Atlas x402 API \u2014 pay-per-call QR/barcode generation and developer utilities over x402 (USDC on Base).",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node api.js && node server.js",
     "test": "node --test"
   },
   "engines": {
